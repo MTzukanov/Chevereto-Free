@@ -4285,6 +4285,8 @@ CHV.fn.fillEmbedCodes = function (elements, parent, fn) {
 
         var flatten_image = Object.flatten(image);
 
+        flatten_image["id"] = flatten_image["url_viewer"].split('/').pop();
+
         $.each(CHV.obj.embed_tpl, function (key, value) {
             $.each(value.options, function (k, v) {
                 var embed = v,

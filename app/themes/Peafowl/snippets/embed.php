@@ -49,22 +49,22 @@ $embed_tpl = [
         'options' => [
             'bbcode-embed' => [
                 'label' => _s('BBCode full'),
-                'template' => '[img]%URL%[/img]',
+                'template' => '[imgl]%FILENAME%[/imgl]',
                 'size' => 'full',
             ],
             'bbcode-embed-full' => [
                 'label' => _s('BBCode full linked'),
-                'template' => '[url=%URL_SHORT%][img]%URL%[/img][/url]',
+                'template' => '[imgl id=%ID%]%FILENAME%[/imgl]',
                 'size' => 'full',
             ],
             'bbcode-embed-medium' => [
                 'label' => _s('BBCode medium linked'),
-                'template' => '[url=%URL_SHORT%][img]%MEDIUM_URL%[/img][/url]',
+                'template' => '[imgl id=%ID%]%MEDIUM_FILENAME%[/imgl]',
                 'size' => 'medium',
             ],
             'bbcode-embed-thumbnail' => [
                 'label' => _s('BBCode thumbnail linked'),
-                'template' => '[url=%URL_SHORT%][img]%THUMB_URL%[/img][/url]',
+                'template' => '[imgl id=%ID%]%THUMB_FILENAME%[/imgl]',
                 'size' => 'thumb',
             ],
         ],
