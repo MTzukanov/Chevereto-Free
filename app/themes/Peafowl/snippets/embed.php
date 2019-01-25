@@ -8,15 +8,15 @@ $embed_tpl = [
 				'label'		=> _s('Viewer links'),
 				'template'	=> '%URL_VIEWER%',
 				'size'		=> 'viewer'
-			],
+			]/*,
 			'direct-links'	=> [
 				'label'		=> _s('Direct links'),
 				'template'	=> '%URL%',
 				'size'		=> 'full'
 			]
-		]
+*/		]
 	],
-	'html-codes' => [
+/*	'html-codes' => [
 		'label' => _s('HTML Codes'),
 		'options' => [
 			'html-embed'	=> [
@@ -40,32 +40,32 @@ $embed_tpl = [
 				'size'		=> 'thumb'
 			]
 		]
-	],
+	],*/
 	'bbcodes' => [
 		'label' => _s('BBCodes'),
 		'options' => [
 			'bbcode-embed'	=> [
 				'label'		=> _s('BBCode full'),
-				'template'	=> '[img]%URL%[/img]',
+				'template'	=> '[imgl]%FILENAME%[/imgl]',
 				'size'		=> 'full'
 			],
 			'bbcode-embed-full' => [
 				'label'		=> _s('BBCode full linked'),
-				'template'	=> '[url=%URL_VIEWER%][img]%URL%[/img][/url]',
+				'template'	=> '[imgl id=%ID%]%FILENAME%[/imgl]',
 				'size'		=> 'full'
 			],
 			'bbcode-embed-medium'	=> [
 				'label'		=> _s('BBCode medium linked'),
-				'template'	=> '[url=%URL_VIEWER%][img]%MEDIUM_URL%[/img][/url]',
+				'template'	=> '[imgl id=%ID%]%MEDIUM_FILENAME%[/imgl]',
 				'size'		=> 'medium'
 			],
 			'bbcode-embed-thumbnail' => [
 				'label'		=> _s('BBCode thumbnail linked'),
-				'template'	=> '[url=%URL_VIEWER%][img]%THUMB_URL%[/img][/url]',
+				'template'	=> '[imgl id=%ID%]%THUMB_FILENAME%[/imgl]',
 				'size'		=> 'thumb'
 			]
 		]
-	],
+	]/*,
 	'markdown' => [
 		'label'	=> 'Markdown',
 		'options' => [
@@ -90,5 +90,5 @@ $embed_tpl = [
 				'size'		=> 'thumb'
 			]
 		]
-	]
+	]*/
 ];
