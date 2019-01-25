@@ -221,7 +221,7 @@
 			},
 			smf: {
 				settings: {
-					html: ' <button %x title="%text" class="%bClass"><span class="%iClass">%iconSvg</span><span class="%tClass">%text</span></button> ',
+					html: ' <button %x title="%text" class="%bClass" style="float: left;"><span class="%iClass">%iconSvg</span></button> ',
 					css: '%defaultCSS #bbcBox_message .%bClass{margin-right:1px;transition:none;color:%2;padding:0;width:23px;height:21px;border-radius:5px;background-color:%1}#bbcBox_message .%bClass:hover{background-color:%3}#bbcBox_message .%tClass{display:none}',
 					sibling: '#BBCBox_message_button_1_1,.quickReplyContent + div',
 					siblingPos: 'before',
