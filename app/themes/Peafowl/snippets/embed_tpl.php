@@ -1,6 +1,11 @@
 <?php if(!defined('access') or !access) die('This file cannot be directly accessed.'); ?>
 <script>
 	$(document).ready(function() {
+		if (!window.opener) {
+		    var style = '<style type="text/css">.embed-button {display: none}</style>';
+		    $("head").append(style);
+		}
+
 		if(typeof CHV == "undefined") {
 			CHV = {obj: {}, fn: {}, str:{}};
 		} else {
@@ -35,6 +40,9 @@
 						echo '<div data-combo-value="'.$k.'" class="switch-combo'.($i>0 ? " soft-hidden" : "").'">
 							<textarea id="modal-embed-code-'.$i.'" class="r3 resize-vertical" name="'.$k.'" data-size="'.$v["size"].'" data-focus="select-all"></textarea>
 							<button class="input-action" data-action="copy" data-action-target="#modal-embed-code-'.$i.'">'._s('copy').'</button>
+							<button class="input-action embed-button" data-action="openerPostMessage"
+								style="top: 3em;"
+								data-action-target="#modal-embed-code-'.$i.'">'._s('embed').'</button>
 						</div>'."\n";
 						$i++;
 					}
