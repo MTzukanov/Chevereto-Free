@@ -707,22 +707,6 @@ $(function() {
 		window.opener.postMessage({id: window.name, message: val}, "*");
 	});
 
-	/*
-	// Input copy
-	$(document).on("mouseenter mouseleave", ".input-copy", function(e){
-		if(navigator.userAgent.match(/(iPad|iPhone|iPod)/i)) {
-			return;
-		}
-		$(".btn-copy", this)[e.type == "mouseenter" ? "show" : "hide"]();
-	});
-
-	$(document).on("click", ".input-copy .btn-copy", function(){
-		var $input = $(this).closest(".input-copy").find("input");
-		$(this).hide();
-		$input.highlight();
-	});
-	*/
-
 	/**
 	 * USER SIDE LISTING EDITOR
 	 * -------------------------------------------------------------------------------------------------
@@ -1033,6 +1017,10 @@ $(function() {
 		$(this).closest(".pop-btn").click();
 
 		switch($(this).data("action")){
+
+// new action here
+// create embed codes using example under case "get-embed-codes" (in a hidden element?)
+// simulate click on embed button?
 
 			case "get-embed-codes":
 
