@@ -1,76 +1,66 @@
-<p align="center"><a href="https://chevereto.com/"><img src="https://chevereto.com/app/themes/v3/img/chevereto-blue.svg" alt="Chevereto"></a></p>
+# Chevereto-Free
 
-<p align="center"><a href="https://chevereto.com">Chevereto</a> is an image hosting script that allows you to create a beautiful and full-featured image hosting website on your own server. It's your hosting and your rules, so say goodbye to closures and restrictions.</p>
+> 🔔 Subscribe to the [newsletter](https://newsletter.chevereto.com/subscription?f=PmL892XuTdfErVq763PCycJQrrnQgNmDybvvbXt7hbfEtgCJrjxKnBK4i9LmtXEOfM7MQBwP36vhsCGYOogbSIfBYw) to don't miss any update regarding Chevereto.
 
-<p align="center"><a href="https://chevereto.com/"><img src="https://chevereto.com/app/themes/v3/img/devices.png" alt="" vspace="20"></a></p>
+![Chevereto](content/images/system/default/logo.svg)
 
-Chevereto Free
-=
+[![Discord](https://img.shields.io/discord/759137550312407050?style=flat-square)](https://chv.to/discord)
 
-<a href="https://chevereto.com/free" title="♫♪ Ha llegado tu tiempo, es el momento de Freeeeeeeeeeeeeeee"><img src="https://chevereto.com/app/themes/v3/img/chevereto-free-cover.jpg" alt="Chevereto Sugar Free Cola"></a>
+Chevereto-Free is an image hosting software that allows you to create a beautiful and full-featured image hosting website on your own server. It's your hosting and your rules, so say goodbye to closures and restrictions.
 
-### About this repo
-This is the repository of Chevereto Free, forked from Chevereto 3.X. Chevereto Free has the same look and feel of our [paid version](https://chevereto.com), but it packs only the most essential features. It is Open Source software licensed under the AGPLv3 license.
+In a nutshell, Chevereto-Free is:
 
-### Free vs Paid Chevereto
-The paid version includes all features, it gets frequent updates, and it is always up to six months ahead of the free edition. The table below shows the distinctions between both versions.
+- 👨🏾‍💻 An indie developed [mature project](https://github.com/chevereto/chevereto#history)
+- ❤ A large [Community](https://chevereto.com/community/)
+- 🤯 Used everywhere, including at [high scale](https://github.com/chevereto/chevereto#-powered-by-chevereto)
+- ⚖ Open Source Software
 
-| Item                                         	| Free            	| Paid                   	|
-|----------------------------------------------	|-----------------	|------------------------	|
-| Updates										| Each 6 months		| Monthly        	      	|
-| Features delay								| +6 months			| Zero	        	      	|
-| One-click system update                       | Yes              	| Yes                    	|
-| Upload plugin	                            	| Yes              	| Yes                    	|
-| [Community Support](https://chevereto.com/community-support)                                 	| Yes 	            | Yes 						|
-| External storage support                     	| No              	| Yes                    	|
-| Manage banners                               	| No              	| Yes                    	|
-| Likes + Followers                            	| No              	| Yes                    	|
-| Facebook, Twitter, Google and VK signup      	| No              	| Yes                    	|
+## 🤯 Viva la modernización!
 
-👉If you enjoy this software, consider [purchasing](https://chevereto.com/pricing) our paid edition 👏. By buying a license, you contribute to keep development ongoing.
+The Chevereto software **is being heavily modernized** by updating the technology stack. The new Chevereto is **extensible**, **progressive**, **headless** and is the most [_chévere_](https://chevere.org/get-started/#name-meaning) Chevereto ever made.
 
-## Minimum system requirements
-Make sure your server meets the minimum system requirements which are:
+It is also **evolving the business**, specially for [how users will monetize](https://rodolfo.is/2021/01/20/thoughts-on-monetize-chevereto-installations/) their instances.
 
- - Apache / NGiNX web server
- - PHP 5.5.0 (standard libraries)
- - MySQL 5.0 (ALL PRIVILEGES)
+👍🏾 Check the all-new Chevereto at [chevereto/chevereto](https://github.com/chevereto/chevereto) for more information and to contribute to its development.
 
-On most servers, that's all you need. The system has a built-in system check that will tell you right away when you need to fix something on your server.
+## It's a fork
 
-## Installation
-Chevereto Free can be installed in several different ways, it all depends on what suits you best.
+Chevereto-Free is a fork of Chevereto V3 (proprietary software) in which the essential features are preserved. This fork **removes**:
 
-### 🐳Install using Docker
-Docker allows you to easily install and maintain all the server dependencies with ease by using automated application containers. The ready-to-use Docker images are under [nmtan/chevereto](https://hub.docker.com/r/nmtan/chevereto/) (many thanks to [Tan Nguyen](https://github.com/tanmng))
+- Social network login
+- External Storage
+- Likes + Followers
+- Manage Banners
 
-### ⚡Install using our Installer
-The installer is a single `.php` file which will download and extract the latest release for you.
-1. Download the [Chevereto Installer](https://chevereto.com/download/file/installer)
-2. Upload this file to your target destination (usually the `public_html` folder)
-3. Go to your website and follow the instructions
+This fork trends to be more stable than the proprietary software (way less frequent updates). If you really need the edge features consider to go with the paid edition.
 
-### ✨Install using Softaculous/Fantastico
-If your web hosting includes [Softaculous](https://softaculous.com/)/[Fantastico](https://netenberg.com/fantastico.php), you can install Chevereto Free with just one click. Chevereto Free should be available for one-click install under the "Image Galleries" category.
+## Documentation
 
-### 📦Install via zip/tarball
- 1. Download the [latest release](https://github.com/Chevereto/Chevereto-Free/releases/latest) of Chevereto Free
- 2. Upload the contents of your download to your server (usually the `public_html` folder)
- 3. Go to your website and follow the instructions
+Chevereto documentation can be found at [v3-docs.chevereto.com](https://v3-docs.chevereto.com/)
 
-For additional installation instructions, refer to our [official documentation](https://chevereto.com/docs/install).
 
-## Updates
-Chevereto has a built-in system that checks for new updates every day via the [Chevereto API](https://chevereto.com/api/get/info/free). The system will notify you when an update is available, and it will guide you through the process.
+## Community
 
-## Upgrade to paid edition
-To upgrade to our paid edition, simply navigate to your dashboard panel and click on the `upgrade` button.
+Join other Chevereto users in our [community](https://chevereto.com/community/) for sharing, supporting and contributing to Chevereto development.
+
+## Known issues
+
+### Can't write into `/app/install/update/temp/` path
+
+Older releases (`1.2.0` and below) are missing the temp folder required for the one-click update process. Simply create the folder for the `www-data` user:
+
+```sh
+sudo -u www-data mkdir /var/www/html/app/install/update/temp/
+```
 
 ## Support
-Use our [Bug Tracking](https://chevereto.com/bug-tracking) to report bugs and our [Community Support](https://chevereto.com/community-support) forums for any support concern.
+
+Users helping each other is highly welcome. Use our [Bug Tracking](https://chevereto.com/bug-tracking) to report bugs and our [Community Support](https://chevereto.com/community-support) forums for any support-related concern.
+
+👍🏾 Consider [purchasing](https://chevereto.com/pricing) a license to get the entire pack of features, an extra layer of support, and to sustain the development of this software.
+
+> Please **don't** open issues here unless is code related.
 
 ## License
-Copyright [Rodolfo Berríos](http://rodolfoberrios.com) - Released under the AGPLv3 license.
 
-## Warranty
-This software doesn't include support. It may contain bugs. Use it at your own risk. This software is offered on an “as-is” basis. No warranty, either expressed or implied, is given.
+Copyright [Rodolfo Berríos Arce](http://rodolfoberrios.com) - Released under the [MIT License](LICENSE).
